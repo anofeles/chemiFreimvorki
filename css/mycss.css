@@ -1,0 +1,300 @@
+body{
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background: -moz-linear-gradient(top,  #1078b5 0%, #4aabe8 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1078b5), color-stop(100%,#4aabe8));
+    background: -webkit-linear-gradient(top,  #1078b5 0%,#4aabe8 100%);
+    background: -o-linear-gradient(top,  #1078b5 0%,#4aabe8 100%);
+    background: -ms-linear-gradient(top,  #1078b5 0%,#4aabe8 100%);
+    background: linear-gradient(to bottom,  #1078b5 0%,#4aabe8 100%);
+    margin: 0 auto;
+}
+.pcseting{
+	margin: 0 auto;
+	width: 100%;
+    display: none;
+    border: 0px solid #000;
+}
+.leptopseting{
+	margin: 0 auto;
+	width: 100%;
+    display: none;
+    border: 0px solid #000;
+}
+.leptopseting{
+    display: none;
+}
+
+.leptopseting .cpu{
+    text-align: center;
+    float: left;
+    margin-left: 50px;
+    margin-top: 5px;
+    border: 1px solid #000;
+    width: 600px;
+    min-height: 200px;
+    padding-bottom: 10px;
+}
+
+
+.pcseting .cpu{
+    text-align: center;
+    float: left;
+    margin-left: 50px;
+    margin-top: 5px;
+    border: 1px solid #000;
+    width: 600px;
+    min-height: 200px;
+    padding-bottom: 10px;
+}
+
+section{
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 1500px;
+}
+
+section .cpu{
+    width: 700px;
+    float: left;
+
+}
+
+section .cpu .nawtitle{
+    margin: 0 auto;
+    width: 480px;
+    background-color: #ccc;
+    padding: 5px;
+}
+
+section .cpu .nawtitle h4{
+    color: #000;
+}
+
+section .login input[type=text]{
+    width: 500px;
+    height: 45px;
+    border-radius: 10px;
+}
+
+section .login input[type=password]{
+    margin-top: 10px;
+    width: 500px;
+    height: 45px;
+    border-radius: 10px;
+}
+
+section .login input[type=submit]{
+    margin-top: 10px;
+    width: 305px;
+    height: 45px;
+    background-color: #4174be;
+    color: #fff;
+}
+
+section .regb{
+    background-color: #4174be;
+    color: #fff;
+}
+
+section .shesgrnt{
+    width: 100%;
+    padding: 10px;
+    background-color: #4174be;
+}
+
+section .shesgrnt a{
+    text-decoration: none;
+    color: #fff;
+}
+
+section .autcss{
+    background-color: #992627;
+    color: #fff;
+}
+
+section .grweril{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 200px;
+    float: left;
+    background-color: #4273bf;
+}
+
+section .grweril a{
+    text-decoration: none;
+    color: #fff;
+}
+
+section .grwer{
+    margin-top: 20px;
+    width: 650px;
+    float: left;
+    margin-left: 50px;
+}
+
+section .grwer .wertanred{
+    background-color: #4273bf;
+}
+
+section .grwer .wertandel{
+    background-color: #c41d1e;
+}
+
+section .grwer .wername{
+    width: 650px;
+    padding: 20px;
+    background-color: #4174be;
+}
+
+.sat{
+    position: absolute;
+    font-size: 23px;
+    margin-top: 10px;
+    margin-left: 40%;
+    width: 600px;
+}
+
+.satit{
+    position: absolute;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 40%;
+    width: 600px;
+}
+
+.daminfo{
+    padding: 5px;
+    border: 1px solid #ccc;
+    width: 500px;
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.chtdata{
+    font-size: 9px;
+}
+
+
+
+
+
+
+
+
+
+
+.v-center {
+    height: 100vh;
+    width: 100%;
+    display: table;
+    position: relative;
+    text-align: center;
+}
+
+.v-center > div {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    top: -10%;
+}
+
+.btn {
+    font-size: 3vmin;
+    padding: 0.75em 1.5em;
+    background-color: #fff;
+    border: 1px solid #bbb;
+    color: #333;
+    text-decoration: none;
+    display: inline;
+    border-radius: 4px;
+    -webkit-transition: background-color 1s ease;
+    -moz-transition: background-color 1s ease;
+    transition: background-color 1s ease;
+}
+
+.btn:hover {
+    background-color: #ddd;
+    -webkit-transition: background-color 1s ease;
+    -moz-transition: background-color 1s ease;
+    transition: background-color 1s ease;
+}
+
+.btn-small {
+    padding: .75em 1em;
+    font-size: 0.8em;
+}
+
+.modal-box {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    width: 98%;
+    background: white;
+    border-bottom: 1px solid #aaa;
+    border-radius: 4px;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-clip: padding-box;
+}
+@media (min-width: 32em) {
+
+    .modal-box { width: 50%; }
+}
+
+.modal-box header,
+.modal-box .modal-header {
+    padding: 1.25em 1.5em;
+    border-bottom: 1px solid #ddd;
+}
+
+.modal-box header h3,
+.modal-box header h4,
+.modal-box .modal-header h3,
+.modal-box .modal-header h4 { margin: 0; }
+
+.modal-box .modal-body { padding: 2em 1.5em; }
+
+.modal-box footer,
+.modal-box .modal-footer {
+    padding: 1em;
+    border-top: 1px solid #ddd;
+    background: rgba(0, 0, 0, 0.02);
+    text-align: right;
+}
+
+.modal-overlay {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 900;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3) !important;
+}
+
+a.close {
+    line-height: 1;
+    font-size: 1.5em;
+    position: absolute;
+    top: 5%;
+    right: 2%;
+    text-decoration: none;
+    color: #bbb;
+}
+
+a.close:hover {
+    color: #222;
+    -webkit-transition: color 1s ease;
+    -moz-transition: color 1s ease;
+    transition: color 1s ease;
+}
